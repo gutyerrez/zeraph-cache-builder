@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+
+    "baseUrl": "src",
+
+    "paths": {
+      "@zeraph/cache-builder": [ "index.ts" ],
+      "@zeraph/cache-builder/*": [ "*" ]
+    },
+
+    "experimentalDecorators": true
+  }
+}
